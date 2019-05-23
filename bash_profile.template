@@ -1,0 +1,9 @@
+alias ll='ls -lrt'
+alias clean='rm -f *~'
+alias hh='history'
+alias work='cd ~/WORK'
+alias key="cat ~/.ssh/id_rsa.pub | tr '\n' ' ' | pbcopy"
+alias juice="docker run --rm -p 3000:3000 bkimminich/juice-shop"
+export PATH="$HOME/scripts:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

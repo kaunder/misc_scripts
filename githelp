@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "> git fetch upstream"
+echo "> git reset --hard upstream/master"
+echo "> git push --force origin master"

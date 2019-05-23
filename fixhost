@@ -1,0 +1,4 @@
+#!/bin/bash
+grep -v $1 ~/.ssh/known_hosts > delete_me
+mv delete_me ~/.ssh/known_hosts
+rm -f delete_me
